@@ -1,0 +1,71 @@
+{
+  "games": {
+    "title": "GAMES",
+    "bannerClass": "banner-games",
+    "action": { "pt": "Jogar / Baixar", "en": "Play / Download", "es": "Jugar / Descargar", "fr": "Jouer / Télécharger", "de": "Spielen / Download" },
+    "groups": [
+      {
+        "id": "top",
+        "label": { "pt": "TOP em GMM", "en": "TOP in GMM", "es": "TOP en GMM", "fr": "TOP dans GMM", "de": "TOP in GMM" },
+        "open": true,
+        "items": [
+          {
+            "title": "Neon Runner",
+            "cover": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=600&q=80",
+            "tags": ["Arcade", "Cyberpunk", "Free"],
+            "description": { "pt": "Corrida futurista com visual neon e fases rápidas.", "en": "A futuristic neon racing game with quick stages.", "es": "Carreras futuristas con visual neón y fases rápidas.", "fr": "Course futuriste néon avec des niveaux rapides.", "de": "Futuristisches Neon-Rennen mit schnellen Levels." },
+            "link": "https://example.com/game/neon-runner"
+          }
+        ]
+      },
+      { "id": "collections", "label": { "pt": "Coleções", "en": "Collections", "es": "Colecciones", "fr": "Collections", "de": "Sammlungen" }, "open": false, "items": [] },
+      { "id": "all", "label": { "pt": "Todos", "en": "All", "es": "Todos", "fr": "Tous", "de": "Alle" }, "open": false, "items": [] }
+    ]
+  },
+  "movies": {
+    "title": "MOVIES",
+    "bannerClass": "banner-movies",
+    "action": { "pt": "Assistir", "en": "Watch", "es": "Ver", "fr": "Regarder", "de": "Ansehen" },
+    "groups": [
+      {
+        "id": "top",
+        "label": { "pt": "TOP em GMM", "en": "TOP in GMM", "es": "TOP en GMM", "fr": "TOP dans GMM", "de": "TOP in GMM" },
+        "open": true,
+        "items": [
+          {
+            "title": "Galaxy Quest Free Cut",
+            "cover": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=600&q=80",
+            "tags": ["Sci-fi", "HD", "Movie"],
+            "description": { "pt": "Uma aventura espacial para testar o modal e o botão de assistir.", "en": "A space adventure to test the modal and watch button.", "es": "Una aventura espacial para probar el modal y el botón de ver.", "fr": "Une aventure spatiale pour tester la modale et le bouton regarder.", "de": "Ein Weltraumabenteuer zum Testen von Modal und Ansehen-Button." },
+            "link": "https://example.com/movie/galaxy-quest"
+          }
+        ]
+      },
+      { "id": "collections", "label": { "pt": "Coleções", "en": "Collections", "es": "Colecciones", "fr": "Collections", "de": "Sammlungen" }, "open": false, "items": [] },
+      { "id": "all", "label": { "pt": "Todos", "en": "All", "es": "Todos", "fr": "Tous", "de": "Alle" }, "open": false, "items": [] }
+    ]
+  },
+  "musics": {
+    "title": "MUSICS",
+    "bannerClass": "banner-musics",
+    "action": { "pt": "Ouvir / Baixar", "en": "Listen / Download", "es": "Escuchar / Descargar", "fr": "Écouter / Télécharger", "de": "Hören / Download" },
+    "groups": [
+      {
+        "id": "top",
+        "label": { "pt": "TOP em GMM", "en": "TOP in GMM", "es": "TOP en GMM", "fr": "TOP dans GMM", "de": "TOP in GMM" },
+        "open": true,
+        "items": [
+          {
+            "title": "Pixel Beats Vol. 1",
+            "cover": "https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&w=600&q=80",
+            "tags": ["Synth", "Playlist", "Free"],
+            "description": { "pt": "Batidas eletrônicas para deixar a interface com energia gamer.", "en": "Electronic beats that give the interface gamer energy.", "es": "Ritmos electrónicos para darle energía gamer a la interfaz.", "fr": "Des beats électroniques pour donner une énergie gamer à l’interface.", "de": "Elektronische Beats für Gamer-Energie in der Oberfläche." },
+            "link": "https://example.com/music/pixel-beats"
+          }
+        ]
+      },
+      { "id": "collections", "label": { "pt": "Coleções", "en": "Collections", "es": "Colecciones", "fr": "Collections", "de": "Sammlungen" }, "open": false, "items": [] },
+      { "id": "all", "label": { "pt": "Todos", "en": "All", "es": "Todos", "fr": "Tous", "de": "Alle" }, "open": false, "items": [] }
+    ]
+  }
+}
