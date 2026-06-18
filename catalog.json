@@ -2,70 +2,973 @@
   "games": {
     "title": "GAMES",
     "bannerClass": "banner-games",
-    "action": { "pt": "Jogar / Baixar", "en": "Play / Download", "es": "Jugar / Descargar", "fr": "Jouer / Télécharger", "de": "Spielen / Download" },
+    "action": {
+      "pt": "Jogar / Baixar",
+      "en": "Play / Download",
+      "es": "Jugar / Descargar",
+      "fr": "Jouer / Télécharger",
+      "de": "Spielen / Download"
+    },
     "groups": [
       {
         "id": "top",
-        "label": { "pt": "TOP em GMM", "en": "TOP in GMM", "es": "TOP en GMM", "fr": "TOP dans GMM", "de": "TOP in GMM" },
+        "label": {
+          "pt": "TOP em GMM",
+          "en": "TOP in GMM",
+          "es": "TOP en GMM",
+          "fr": "TOP dans GMM",
+          "de": "TOP in GMM"
+        },
         "open": true,
         "items": [
           {
             "title": "Neon Runner",
             "cover": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=600&q=80",
-            "tags": ["Arcade", "Cyberpunk", "Free"],
-            "description": { "pt": "Corrida futurista com visual neon e fases rápidas.", "en": "A futuristic neon racing game with quick stages.", "es": "Carreras futuristas con visual neón y fases rápidas.", "fr": "Course futuriste néon avec des niveaux rapides.", "de": "Futuristisches Neon-Rennen mit schnellen Levels." },
-            "link": "https://example.com/game/neon-runner"
+            "tags": [
+              "Game",
+              "Free",
+              "GMMF"
+            ],
+            "description": {
+              "pt": "Item de exemplo Neon Runner em games para você editar cover, tags, descrição e link no JSON.",
+              "en": "Sample games item Neon Runner so you can edit cover, tags, description, and link in JSON.",
+              "es": "Elemento de ejemplo Neon Runner en games para editar portada, tags, descripción y link en JSON.",
+              "fr": "Exemple Neon Runner dans games pour modifier cover, tags, description et lien dans le JSON.",
+              "de": "Beispiel Neon Runner in games, damit du Cover, Tags, Beschreibung und Link im JSON bearbeiten kannst."
+            },
+            "link": "https://example.com/games/neon-runner"
+          },
+          {
+            "title": "Cyber Arena",
+            "cover": "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=600&q=80",
+            "tags": [
+              "Game",
+              "Free",
+              "GMMF"
+            ],
+            "description": {
+              "pt": "Item de exemplo Cyber Arena em games para você editar cover, tags, descrição e link no JSON.",
+              "en": "Sample games item Cyber Arena so you can edit cover, tags, description, and link in JSON.",
+              "es": "Elemento de ejemplo Cyber Arena en games para editar portada, tags, descripción y link en JSON.",
+              "fr": "Exemple Cyber Arena dans games pour modifier cover, tags, description et lien dans le JSON.",
+              "de": "Beispiel Cyber Arena in games, damit du Cover, Tags, Beschreibung und Link im JSON bearbeiten kannst."
+            },
+            "link": "https://example.com/games/cyber-arena"
+          },
+          {
+            "title": "Rocket Drift",
+            "cover": "https://images.unsplash.com/photo-1493711662062-fa541adb3fc8?auto=format&fit=crop&w=600&q=80",
+            "tags": [
+              "Game",
+              "Free",
+              "GMMF"
+            ],
+            "description": {
+              "pt": "Item de exemplo Rocket Drift em games para você editar cover, tags, descrição e link no JSON.",
+              "en": "Sample games item Rocket Drift so you can edit cover, tags, description, and link in JSON.",
+              "es": "Elemento de ejemplo Rocket Drift en games para editar portada, tags, descripción y link en JSON.",
+              "fr": "Exemple Rocket Drift dans games pour modifier cover, tags, description et lien dans le JSON.",
+              "de": "Beispiel Rocket Drift in games, damit du Cover, Tags, Beschreibung und Link im JSON bearbeiten kannst."
+            },
+            "link": "https://example.com/games/rocket-drift"
+          },
+          {
+            "title": "Pixel Kingdom",
+            "cover": "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?auto=format&fit=crop&w=600&q=80",
+            "tags": [
+              "Game",
+              "Free",
+              "GMMF"
+            ],
+            "description": {
+              "pt": "Item de exemplo Pixel Kingdom em games para você editar cover, tags, descrição e link no JSON.",
+              "en": "Sample games item Pixel Kingdom so you can edit cover, tags, description, and link in JSON.",
+              "es": "Elemento de ejemplo Pixel Kingdom en games para editar portada, tags, descripción y link en JSON.",
+              "fr": "Exemple Pixel Kingdom dans games pour modifier cover, tags, description et lien dans le JSON.",
+              "de": "Beispiel Pixel Kingdom in games, damit du Cover, Tags, Beschreibung und Link im JSON bearbeiten kannst."
+            },
+            "link": "https://example.com/games/pixel-kingdom"
           }
         ]
       },
-      { "id": "collections", "label": { "pt": "Coleções", "en": "Collections", "es": "Colecciones", "fr": "Collections", "de": "Sammlungen" }, "open": false, "items": [] },
-      { "id": "all", "label": { "pt": "Todos", "en": "All", "es": "Todos", "fr": "Tous", "de": "Alle" }, "open": false, "items": [] }
+      {
+        "id": "collections",
+        "label": {
+          "pt": "Coleções",
+          "en": "Collections",
+          "es": "Colecciones",
+          "fr": "Collections",
+          "de": "Collections"
+        },
+        "open": false,
+        "items": [
+          {
+            "title": "Shadow Quest",
+            "cover": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=600&q=80",
+            "tags": [
+              "Game",
+              "Free",
+              "GMMF"
+            ],
+            "description": {
+              "pt": "Item de exemplo Shadow Quest em games para você editar cover, tags, descrição e link no JSON.",
+              "en": "Sample games item Shadow Quest so you can edit cover, tags, description, and link in JSON.",
+              "es": "Elemento de ejemplo Shadow Quest en games para editar portada, tags, descripción y link en JSON.",
+              "fr": "Exemple Shadow Quest dans games pour modifier cover, tags, description et lien dans le JSON.",
+              "de": "Beispiel Shadow Quest in games, damit du Cover, Tags, Beschreibung und Link im JSON bearbeiten kannst."
+            },
+            "link": "https://example.com/games/shadow-quest"
+          },
+          {
+            "title": "Turbo Kart",
+            "cover": "https://images.unsplash.com/photo-1552820728-8b83bb6b773f?auto=format&fit=crop&w=600&q=80",
+            "tags": [
+              "Game",
+              "Free",
+              "GMMF"
+            ],
+            "description": {
+              "pt": "Item de exemplo Turbo Kart em games para você editar cover, tags, descrição e link no JSON.",
+              "en": "Sample games item Turbo Kart so you can edit cover, tags, description, and link in JSON.",
+              "es": "Elemento de ejemplo Turbo Kart en games para editar portada, tags, descripción y link en JSON.",
+              "fr": "Exemple Turbo Kart dans games pour modifier cover, tags, description et lien dans le JSON.",
+              "de": "Beispiel Turbo Kart in games, damit du Cover, Tags, Beschreibung und Link im JSON bearbeiten kannst."
+            },
+            "link": "https://example.com/games/turbo-kart"
+          },
+          {
+            "title": "Mecha Strike",
+            "cover": "https://images.unsplash.com/photo-1519669556878-63bdad8a1a49?auto=format&fit=crop&w=600&q=80",
+            "tags": [
+              "Game",
+              "Free",
+              "GMMF"
+            ],
+            "description": {
+              "pt": "Item de exemplo Mecha Strike em games para você editar cover, tags, descrição e link no JSON.",
+              "en": "Sample games item Mecha Strike so you can edit cover, tags, description, and link in JSON.",
+              "es": "Elemento de ejemplo Mecha Strike en games para editar portada, tags, descripción y link en JSON.",
+              "fr": "Exemple Mecha Strike dans games pour modifier cover, tags, description et lien dans le JSON.",
+              "de": "Beispiel Mecha Strike in games, damit du Cover, Tags, Beschreibung und Link im JSON bearbeiten kannst."
+            },
+            "link": "https://example.com/games/mecha-strike"
+          },
+          {
+            "title": "Dungeon Bit",
+            "cover": "https://images.unsplash.com/photo-1556438064-2d7646166914?auto=format&fit=crop&w=600&q=80",
+            "tags": [
+              "Game",
+              "Free",
+              "GMMF"
+            ],
+            "description": {
+              "pt": "Item de exemplo Dungeon Bit em games para você editar cover, tags, descrição e link no JSON.",
+              "en": "Sample games item Dungeon Bit so you can edit cover, tags, description, and link in JSON.",
+              "es": "Elemento de ejemplo Dungeon Bit en games para editar portada, tags, descripción y link en JSON.",
+              "fr": "Exemple Dungeon Bit dans games pour modifier cover, tags, description et lien dans le JSON.",
+              "de": "Beispiel Dungeon Bit in games, damit du Cover, Tags, Beschreibung und Link im JSON bearbeiten kannst."
+            },
+            "link": "https://example.com/games/dungeon-bit"
+          }
+        ]
+      },
+      {
+        "id": "all",
+        "label": {
+          "pt": "Todos",
+          "en": "All",
+          "es": "Todos",
+          "fr": "Tous",
+          "de": "Alle"
+        },
+        "open": false,
+        "items": [
+          {
+            "title": "Star Colony",
+            "cover": "https://images.unsplash.com/photo-1560253023-3ec5d502959f?auto=format&fit=crop&w=600&q=80",
+            "tags": [
+              "Game",
+              "Free",
+              "GMMF"
+            ],
+            "description": {
+              "pt": "Item de exemplo Star Colony em games para você editar cover, tags, descrição e link no JSON.",
+              "en": "Sample games item Star Colony so you can edit cover, tags, description, and link in JSON.",
+              "es": "Elemento de ejemplo Star Colony en games para editar portada, tags, descripción y link en JSON.",
+              "fr": "Exemple Star Colony dans games pour modifier cover, tags, description et lien dans le JSON.",
+              "de": "Beispiel Star Colony in games, damit du Cover, Tags, Beschreibung und Link im JSON bearbeiten kannst."
+            },
+            "link": "https://example.com/games/star-colony"
+          },
+          {
+            "title": "Retro Fighter",
+            "cover": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=600&q=80",
+            "tags": [
+              "Game",
+              "Free",
+              "GMMF"
+            ],
+            "description": {
+              "pt": "Item de exemplo Retro Fighter em games para você editar cover, tags, descrição e link no JSON.",
+              "en": "Sample games item Retro Fighter so you can edit cover, tags, description, and link in JSON.",
+              "es": "Elemento de ejemplo Retro Fighter en games para editar portada, tags, descripción y link en JSON.",
+              "fr": "Exemple Retro Fighter dans games pour modifier cover, tags, description et lien dans le JSON.",
+              "de": "Beispiel Retro Fighter in games, damit du Cover, Tags, Beschreibung und Link im JSON bearbeiten kannst."
+            },
+            "link": "https://example.com/games/retro-fighter"
+          },
+          {
+            "title": "Ocean Builder",
+            "cover": "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?auto=format&fit=crop&w=600&q=80",
+            "tags": [
+              "Game",
+              "Free",
+              "GMMF"
+            ],
+            "description": {
+              "pt": "Item de exemplo Ocean Builder em games para você editar cover, tags, descrição e link no JSON.",
+              "en": "Sample games item Ocean Builder so you can edit cover, tags, description, and link in JSON.",
+              "es": "Elemento de ejemplo Ocean Builder en games para editar portada, tags, descripción y link en JSON.",
+              "fr": "Exemple Ocean Builder dans games pour modifier cover, tags, description et lien dans le JSON.",
+              "de": "Beispiel Ocean Builder in games, damit du Cover, Tags, Beschreibung und Link im JSON bearbeiten kannst."
+            },
+            "link": "https://example.com/games/ocean-builder"
+          },
+          {
+            "title": "Sky Raiders",
+            "cover": "https://images.unsplash.com/photo-1593305841991-05c297ba4575?auto=format&fit=crop&w=600&q=80",
+            "tags": [
+              "Game",
+              "Free",
+              "GMMF"
+            ],
+            "description": {
+              "pt": "Item de exemplo Sky Raiders em games para você editar cover, tags, descrição e link no JSON.",
+              "en": "Sample games item Sky Raiders so you can edit cover, tags, description, and link in JSON.",
+              "es": "Elemento de ejemplo Sky Raiders en games para editar portada, tags, descripción y link en JSON.",
+              "fr": "Exemple Sky Raiders dans games pour modifier cover, tags, description et lien dans le JSON.",
+              "de": "Beispiel Sky Raiders in games, damit du Cover, Tags, Beschreibung und Link im JSON bearbeiten kannst."
+            },
+            "link": "https://example.com/games/sky-raiders"
+          },
+          {
+            "title": "Alien Garden",
+            "cover": "https://images.unsplash.com/photo-1586182987320-4f376d39d787?auto=format&fit=crop&w=600&q=80",
+            "tags": [
+              "Game",
+              "Free",
+              "GMMF"
+            ],
+            "description": {
+              "pt": "Item de exemplo Alien Garden em games para você editar cover, tags, descrição e link no JSON.",
+              "en": "Sample games item Alien Garden so you can edit cover, tags, description, and link in JSON.",
+              "es": "Elemento de ejemplo Alien Garden en games para editar portada, tags, descripción y link en JSON.",
+              "fr": "Exemple Alien Garden dans games pour modifier cover, tags, description et lien dans le JSON.",
+              "de": "Beispiel Alien Garden in games, damit du Cover, Tags, Beschreibung und Link im JSON bearbeiten kannst."
+            },
+            "link": "https://example.com/games/alien-garden"
+          },
+          {
+            "title": "Night Speedway",
+            "cover": "https://images.unsplash.com/photo-1598550476439-6847785fcea6?auto=format&fit=crop&w=600&q=80",
+            "tags": [
+              "Game",
+              "Free",
+              "GMMF"
+            ],
+            "description": {
+              "pt": "Item de exemplo Night Speedway em games para você editar cover, tags, descrição e link no JSON.",
+              "en": "Sample games item Night Speedway so you can edit cover, tags, description, and link in JSON.",
+              "es": "Elemento de ejemplo Night Speedway en games para editar portada, tags, descripción y link en JSON.",
+              "fr": "Exemple Night Speedway dans games pour modifier cover, tags, description et lien dans le JSON.",
+              "de": "Beispiel Night Speedway in games, damit du Cover, Tags, Beschreibung und Link im JSON bearbeiten kannst."
+            },
+            "link": "https://example.com/games/night-speedway"
+          },
+          {
+            "title": "Block Legends",
+            "cover": "https://images.unsplash.com/photo-1579373903781-fd5c0c30c4cd?auto=format&fit=crop&w=600&q=80",
+            "tags": [
+              "Game",
+              "Free",
+              "GMMF"
+            ],
+            "description": {
+              "pt": "Item de exemplo Block Legends em games para você editar cover, tags, descrição e link no JSON.",
+              "en": "Sample games item Block Legends so you can edit cover, tags, description, and link in JSON.",
+              "es": "Elemento de ejemplo Block Legends en games para editar portada, tags, descripción y link en JSON.",
+              "fr": "Exemple Block Legends dans games pour modifier cover, tags, description et lien dans le JSON.",
+              "de": "Beispiel Block Legends in games, damit du Cover, Tags, Beschreibung und Link im JSON bearbeiten kannst."
+            },
+            "link": "https://example.com/games/block-legends"
+          },
+          {
+            "title": "Crystal RPG",
+            "cover": "https://images.unsplash.com/photo-1614294148960-9aa740632a87?auto=format&fit=crop&w=600&q=80",
+            "tags": [
+              "Game",
+              "Free",
+              "GMMF"
+            ],
+            "description": {
+              "pt": "Item de exemplo Crystal RPG em games para você editar cover, tags, descrição e link no JSON.",
+              "en": "Sample games item Crystal RPG so you can edit cover, tags, description, and link in JSON.",
+              "es": "Elemento de ejemplo Crystal RPG en games para editar portada, tags, descripción y link en JSON.",
+              "fr": "Exemple Crystal RPG dans games pour modifier cover, tags, description et lien dans le JSON.",
+              "de": "Beispiel Crystal RPG in games, damit du Cover, Tags, Beschreibung und Link im JSON bearbeiten kannst."
+            },
+            "link": "https://example.com/games/crystal-rpg"
+          }
+        ]
+      }
     ]
   },
   "movies": {
     "title": "MOVIES",
     "bannerClass": "banner-movies",
-    "action": { "pt": "Assistir", "en": "Watch", "es": "Ver", "fr": "Regarder", "de": "Ansehen" },
+    "action": {
+      "pt": "Assistir",
+      "en": "Watch",
+      "es": "Ver",
+      "fr": "Regarder",
+      "de": "Ansehen"
+    },
     "groups": [
       {
         "id": "top",
-        "label": { "pt": "TOP em GMM", "en": "TOP in GMM", "es": "TOP en GMM", "fr": "TOP dans GMM", "de": "TOP in GMM" },
+        "label": {
+          "pt": "TOP em GMM",
+          "en": "TOP in GMM",
+          "es": "TOP en GMM",
+          "fr": "TOP dans GMM",
+          "de": "TOP in GMM"
+        },
         "open": true,
         "items": [
           {
             "title": "Galaxy Quest Free Cut",
             "cover": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=600&q=80",
-            "tags": ["Sci-fi", "HD", "Movie"],
-            "description": { "pt": "Uma aventura espacial para testar o modal e o botão de assistir.", "en": "A space adventure to test the modal and watch button.", "es": "Una aventura espacial para probar el modal y el botón de ver.", "fr": "Une aventure spatiale pour tester la modale et le bouton regarder.", "de": "Ein Weltraumabenteuer zum Testen von Modal und Ansehen-Button." },
-            "link": "https://example.com/movie/galaxy-quest"
+            "tags": [
+              "Movie",
+              "HD",
+              "Free"
+            ],
+            "description": {
+              "pt": "Item de exemplo Galaxy Quest Free Cut em movies para você editar cover, tags, descrição e link no JSON.",
+              "en": "Sample movies item Galaxy Quest Free Cut so you can edit cover, tags, description, and link in JSON.",
+              "es": "Elemento de ejemplo Galaxy Quest Free Cut en movies para editar portada, tags, descripción y link en JSON.",
+              "fr": "Exemple Galaxy Quest Free Cut dans movies pour modifier cover, tags, description et lien dans le JSON.",
+              "de": "Beispiel Galaxy Quest Free Cut in movies, damit du Cover, Tags, Beschreibung und Link im JSON bearbeiten kannst."
+            },
+            "link": "https://example.com/movies/galaxy-quest-free-cut"
+          },
+          {
+            "title": "Neon City",
+            "cover": "https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=600&q=80",
+            "tags": [
+              "Movie",
+              "HD",
+              "Free"
+            ],
+            "description": {
+              "pt": "Item de exemplo Neon City em movies para você editar cover, tags, descrição e link no JSON.",
+              "en": "Sample movies item Neon City so you can edit cover, tags, description, and link in JSON.",
+              "es": "Elemento de ejemplo Neon City en movies para editar portada, tags, descripción y link en JSON.",
+              "fr": "Exemple Neon City dans movies pour modifier cover, tags, description et lien dans le JSON.",
+              "de": "Beispiel Neon City in movies, damit du Cover, Tags, Beschreibung und Link im JSON bearbeiten kannst."
+            },
+            "link": "https://example.com/movies/neon-city"
+          },
+          {
+            "title": "Rocket Cinema",
+            "cover": "https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?auto=format&fit=crop&w=600&q=80",
+            "tags": [
+              "Movie",
+              "HD",
+              "Free"
+            ],
+            "description": {
+              "pt": "Item de exemplo Rocket Cinema em movies para você editar cover, tags, descrição e link no JSON.",
+              "en": "Sample movies item Rocket Cinema so you can edit cover, tags, description, and link in JSON.",
+              "es": "Elemento de ejemplo Rocket Cinema en movies para editar portada, tags, descripción y link en JSON.",
+              "fr": "Exemple Rocket Cinema dans movies pour modifier cover, tags, description et lien dans le JSON.",
+              "de": "Beispiel Rocket Cinema in movies, damit du Cover, Tags, Beschreibung und Link im JSON bearbeiten kannst."
+            },
+            "link": "https://example.com/movies/rocket-cinema"
+          },
+          {
+            "title": "Pixel Heroes",
+            "cover": "https://images.unsplash.com/photo-1524985069026-dd778a71c7b4?auto=format&fit=crop&w=600&q=80",
+            "tags": [
+              "Movie",
+              "HD",
+              "Free"
+            ],
+            "description": {
+              "pt": "Item de exemplo Pixel Heroes em movies para você editar cover, tags, descrição e link no JSON.",
+              "en": "Sample movies item Pixel Heroes so you can edit cover, tags, description, and link in JSON.",
+              "es": "Elemento de ejemplo Pixel Heroes en movies para editar portada, tags, descripción y link en JSON.",
+              "fr": "Exemple Pixel Heroes dans movies pour modifier cover, tags, description et lien dans le JSON.",
+              "de": "Beispiel Pixel Heroes in movies, damit du Cover, Tags, Beschreibung und Link im JSON bearbeiten kannst."
+            },
+            "link": "https://example.com/movies/pixel-heroes"
           }
         ]
       },
-      { "id": "collections", "label": { "pt": "Coleções", "en": "Collections", "es": "Colecciones", "fr": "Collections", "de": "Sammlungen" }, "open": false, "items": [] },
-      { "id": "all", "label": { "pt": "Todos", "en": "All", "es": "Todos", "fr": "Tous", "de": "Alle" }, "open": false, "items": [] }
+      {
+        "id": "collections",
+        "label": {
+          "pt": "Coleções",
+          "en": "Collections",
+          "es": "Colecciones",
+          "fr": "Collections",
+          "de": "Collections"
+        },
+        "open": false,
+        "items": [
+          {
+            "title": "Shadow Planet",
+            "cover": "https://images.unsplash.com/photo-1478720568477-152d9b164e26?auto=format&fit=crop&w=600&q=80",
+            "tags": [
+              "Movie",
+              "HD",
+              "Free"
+            ],
+            "description": {
+              "pt": "Item de exemplo Shadow Planet em movies para você editar cover, tags, descrição e link no JSON.",
+              "en": "Sample movies item Shadow Planet so you can edit cover, tags, description, and link in JSON.",
+              "es": "Elemento de ejemplo Shadow Planet en movies para editar portada, tags, descripción y link en JSON.",
+              "fr": "Exemple Shadow Planet dans movies pour modifier cover, tags, description et lien dans le JSON.",
+              "de": "Beispiel Shadow Planet in movies, damit du Cover, Tags, Beschreibung und Link im JSON bearbeiten kannst."
+            },
+            "link": "https://example.com/movies/shadow-planet"
+          },
+          {
+            "title": "Turbo Chase",
+            "cover": "https://images.unsplash.com/photo-1505686994434-e3cc5abf1330?auto=format&fit=crop&w=600&q=80",
+            "tags": [
+              "Movie",
+              "HD",
+              "Free"
+            ],
+            "description": {
+              "pt": "Item de exemplo Turbo Chase em movies para você editar cover, tags, descrição e link no JSON.",
+              "en": "Sample movies item Turbo Chase so you can edit cover, tags, description, and link in JSON.",
+              "es": "Elemento de ejemplo Turbo Chase en movies para editar portada, tags, descripción y link en JSON.",
+              "fr": "Exemple Turbo Chase dans movies pour modifier cover, tags, description et lien dans le JSON.",
+              "de": "Beispiel Turbo Chase in movies, damit du Cover, Tags, Beschreibung und Link im JSON bearbeiten kannst."
+            },
+            "link": "https://example.com/movies/turbo-chase"
+          },
+          {
+            "title": "Mecha Dawn",
+            "cover": "https://images.unsplash.com/photo-1518929458119-e5bf444c30f4?auto=format&fit=crop&w=600&q=80",
+            "tags": [
+              "Movie",
+              "HD",
+              "Free"
+            ],
+            "description": {
+              "pt": "Item de exemplo Mecha Dawn em movies para você editar cover, tags, descrição e link no JSON.",
+              "en": "Sample movies item Mecha Dawn so you can edit cover, tags, description, and link in JSON.",
+              "es": "Elemento de ejemplo Mecha Dawn en movies para editar portada, tags, descripción y link en JSON.",
+              "fr": "Exemple Mecha Dawn dans movies pour modifier cover, tags, description et lien dans le JSON.",
+              "de": "Beispiel Mecha Dawn in movies, damit du Cover, Tags, Beschreibung und Link im JSON bearbeiten kannst."
+            },
+            "link": "https://example.com/movies/mecha-dawn"
+          },
+          {
+            "title": "Dungeon Tale",
+            "cover": "https://images.unsplash.com/photo-1542204165-65bf26472b9b?auto=format&fit=crop&w=600&q=80",
+            "tags": [
+              "Movie",
+              "HD",
+              "Free"
+            ],
+            "description": {
+              "pt": "Item de exemplo Dungeon Tale em movies para você editar cover, tags, descrição e link no JSON.",
+              "en": "Sample movies item Dungeon Tale so you can edit cover, tags, description, and link in JSON.",
+              "es": "Elemento de ejemplo Dungeon Tale en movies para editar portada, tags, descripción y link en JSON.",
+              "fr": "Exemple Dungeon Tale dans movies pour modifier cover, tags, description et lien dans le JSON.",
+              "de": "Beispiel Dungeon Tale in movies, damit du Cover, Tags, Beschreibung und Link im JSON bearbeiten kannst."
+            },
+            "link": "https://example.com/movies/dungeon-tale"
+          }
+        ]
+      },
+      {
+        "id": "all",
+        "label": {
+          "pt": "Todos",
+          "en": "All",
+          "es": "Todos",
+          "fr": "Tous",
+          "de": "Alle"
+        },
+        "open": false,
+        "items": [
+          {
+            "title": "Star Voyage",
+            "cover": "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?auto=format&fit=crop&w=600&q=80",
+            "tags": [
+              "Movie",
+              "HD",
+              "Free"
+            ],
+            "description": {
+              "pt": "Item de exemplo Star Voyage em movies para você editar cover, tags, descrição e link no JSON.",
+              "en": "Sample movies item Star Voyage so you can edit cover, tags, description, and link in JSON.",
+              "es": "Elemento de ejemplo Star Voyage en movies para editar portada, tags, descripción y link en JSON.",
+              "fr": "Exemple Star Voyage dans movies pour modifier cover, tags, description et lien dans le JSON.",
+              "de": "Beispiel Star Voyage in movies, damit du Cover, Tags, Beschreibung und Link im JSON bearbeiten kannst."
+            },
+            "link": "https://example.com/movies/star-voyage"
+          },
+          {
+            "title": "Retro Nights",
+            "cover": "https://images.unsplash.com/photo-1521967906867-14ec9d64bee8?auto=format&fit=crop&w=600&q=80",
+            "tags": [
+              "Movie",
+              "HD",
+              "Free"
+            ],
+            "description": {
+              "pt": "Item de exemplo Retro Nights em movies para você editar cover, tags, descrição e link no JSON.",
+              "en": "Sample movies item Retro Nights so you can edit cover, tags, description, and link in JSON.",
+              "es": "Elemento de ejemplo Retro Nights en movies para editar portada, tags, descripción y link en JSON.",
+              "fr": "Exemple Retro Nights dans movies pour modifier cover, tags, description et lien dans le JSON.",
+              "de": "Beispiel Retro Nights in movies, damit du Cover, Tags, Beschreibung und Link im JSON bearbeiten kannst."
+            },
+            "link": "https://example.com/movies/retro-nights"
+          },
+          {
+            "title": "Ocean Mystery",
+            "cover": "https://images.unsplash.com/photo-1505236858219-8359eb29e329?auto=format&fit=crop&w=600&q=80",
+            "tags": [
+              "Movie",
+              "HD",
+              "Free"
+            ],
+            "description": {
+              "pt": "Item de exemplo Ocean Mystery em movies para você editar cover, tags, descrição e link no JSON.",
+              "en": "Sample movies item Ocean Mystery so you can edit cover, tags, description, and link in JSON.",
+              "es": "Elemento de ejemplo Ocean Mystery en movies para editar portada, tags, descripción y link en JSON.",
+              "fr": "Exemple Ocean Mystery dans movies pour modifier cover, tags, description et lien dans le JSON.",
+              "de": "Beispiel Ocean Mystery in movies, damit du Cover, Tags, Beschreibung und Link im JSON bearbeiten kannst."
+            },
+            "link": "https://example.com/movies/ocean-mystery"
+          },
+          {
+            "title": "Skyline Raiders",
+            "cover": "https://images.unsplash.com/photo-1574267432553-4b4628081c31?auto=format&fit=crop&w=600&q=80",
+            "tags": [
+              "Movie",
+              "HD",
+              "Free"
+            ],
+            "description": {
+              "pt": "Item de exemplo Skyline Raiders em movies para você editar cover, tags, descrição e link no JSON.",
+              "en": "Sample movies item Skyline Raiders so you can edit cover, tags, description, and link in JSON.",
+              "es": "Elemento de ejemplo Skyline Raiders en movies para editar portada, tags, descripción y link en JSON.",
+              "fr": "Exemple Skyline Raiders dans movies pour modifier cover, tags, description et lien dans le JSON.",
+              "de": "Beispiel Skyline Raiders in movies, damit du Cover, Tags, Beschreibung und Link im JSON bearbeiten kannst."
+            },
+            "link": "https://example.com/movies/skyline-raiders"
+          },
+          {
+            "title": "Alien Signal",
+            "cover": "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=600&q=80",
+            "tags": [
+              "Movie",
+              "HD",
+              "Free"
+            ],
+            "description": {
+              "pt": "Item de exemplo Alien Signal em movies para você editar cover, tags, descrição e link no JSON.",
+              "en": "Sample movies item Alien Signal so you can edit cover, tags, description, and link in JSON.",
+              "es": "Elemento de ejemplo Alien Signal en movies para editar portada, tags, descripción y link en JSON.",
+              "fr": "Exemple Alien Signal dans movies pour modifier cover, tags, description et lien dans le JSON.",
+              "de": "Beispiel Alien Signal in movies, damit du Cover, Tags, Beschreibung und Link im JSON bearbeiten kannst."
+            },
+            "link": "https://example.com/movies/alien-signal"
+          },
+          {
+            "title": "Night Premiere",
+            "cover": "https://images.unsplash.com/photo-1543536448-d209d2d13a1c?auto=format&fit=crop&w=600&q=80",
+            "tags": [
+              "Movie",
+              "HD",
+              "Free"
+            ],
+            "description": {
+              "pt": "Item de exemplo Night Premiere em movies para você editar cover, tags, descrição e link no JSON.",
+              "en": "Sample movies item Night Premiere so you can edit cover, tags, description, and link in JSON.",
+              "es": "Elemento de ejemplo Night Premiere en movies para editar portada, tags, descripción y link en JSON.",
+              "fr": "Exemple Night Premiere dans movies pour modifier cover, tags, description et lien dans le JSON.",
+              "de": "Beispiel Night Premiere in movies, damit du Cover, Tags, Beschreibung und Link im JSON bearbeiten kannst."
+            },
+            "link": "https://example.com/movies/night-premiere"
+          },
+          {
+            "title": "Blockbuster Zero",
+            "cover": "https://images.unsplash.com/photo-1559108318-39ed452bb6c8?auto=format&fit=crop&w=600&q=80",
+            "tags": [
+              "Movie",
+              "HD",
+              "Free"
+            ],
+            "description": {
+              "pt": "Item de exemplo Blockbuster Zero em movies para você editar cover, tags, descrição e link no JSON.",
+              "en": "Sample movies item Blockbuster Zero so you can edit cover, tags, description, and link in JSON.",
+              "es": "Elemento de ejemplo Blockbuster Zero en movies para editar portada, tags, descripción y link en JSON.",
+              "fr": "Exemple Blockbuster Zero dans movies pour modifier cover, tags, description et lien dans le JSON.",
+              "de": "Beispiel Blockbuster Zero in movies, damit du Cover, Tags, Beschreibung und Link im JSON bearbeiten kannst."
+            },
+            "link": "https://example.com/movies/blockbuster-zero"
+          },
+          {
+            "title": "Crystal Scene",
+            "cover": "https://images.unsplash.com/photo-1598899134739-24c46f58b8c0?auto=format&fit=crop&w=600&q=80",
+            "tags": [
+              "Movie",
+              "HD",
+              "Free"
+            ],
+            "description": {
+              "pt": "Item de exemplo Crystal Scene em movies para você editar cover, tags, descrição e link no JSON.",
+              "en": "Sample movies item Crystal Scene so you can edit cover, tags, description, and link in JSON.",
+              "es": "Elemento de ejemplo Crystal Scene en movies para editar portada, tags, descripción y link en JSON.",
+              "fr": "Exemple Crystal Scene dans movies pour modifier cover, tags, description et lien dans le JSON.",
+              "de": "Beispiel Crystal Scene in movies, damit du Cover, Tags, Beschreibung und Link im JSON bearbeiten kannst."
+            },
+            "link": "https://example.com/movies/crystal-scene"
+          }
+        ]
+      }
     ]
   },
   "musics": {
     "title": "MUSICS",
     "bannerClass": "banner-musics",
-    "action": { "pt": "Ouvir / Baixar", "en": "Listen / Download", "es": "Escuchar / Descargar", "fr": "Écouter / Télécharger", "de": "Hören / Download" },
+    "action": {
+      "pt": "Ouvir / Baixar",
+      "en": "Listen / Download",
+      "es": "Escuchar / Descargar",
+      "fr": "Écouter / Télécharger",
+      "de": "Hören / Download"
+    },
     "groups": [
       {
         "id": "top",
-        "label": { "pt": "TOP em GMM", "en": "TOP in GMM", "es": "TOP en GMM", "fr": "TOP dans GMM", "de": "TOP in GMM" },
+        "label": {
+          "pt": "TOP em GMM",
+          "en": "TOP in GMM",
+          "es": "TOP en GMM",
+          "fr": "TOP dans GMM",
+          "de": "TOP in GMM"
+        },
         "open": true,
         "items": [
           {
             "title": "Pixel Beats Vol. 1",
             "cover": "https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&w=600&q=80",
-            "tags": ["Synth", "Playlist", "Free"],
-            "description": { "pt": "Batidas eletrônicas para deixar a interface com energia gamer.", "en": "Electronic beats that give the interface gamer energy.", "es": "Ritmos electrónicos para darle energía gamer a la interfaz.", "fr": "Des beats électroniques pour donner une énergie gamer à l’interface.", "de": "Elektronische Beats für Gamer-Energie in der Oberfläche." },
-            "link": "https://example.com/music/pixel-beats"
+            "tags": [
+              "Music",
+              "Playlist",
+              "Free"
+            ],
+            "description": {
+              "pt": "Item de exemplo Pixel Beats Vol. 1 em musics para você editar cover, tags, descrição e link no JSON.",
+              "en": "Sample musics item Pixel Beats Vol. 1 so you can edit cover, tags, description, and link in JSON.",
+              "es": "Elemento de ejemplo Pixel Beats Vol. 1 en musics para editar portada, tags, descripción y link en JSON.",
+              "fr": "Exemple Pixel Beats Vol. 1 dans musics pour modifier cover, tags, description et lien dans le JSON.",
+              "de": "Beispiel Pixel Beats Vol. 1 in musics, damit du Cover, Tags, Beschreibung und Link im JSON bearbeiten kannst."
+            },
+            "link": "https://example.com/musics/pixel-beats-vol.-1"
+          },
+          {
+            "title": "Neon Synth",
+            "cover": "https://images.unsplash.com/photo-1501386761578-eac5c94b800a?auto=format&fit=crop&w=600&q=80",
+            "tags": [
+              "Music",
+              "Playlist",
+              "Free"
+            ],
+            "description": {
+              "pt": "Item de exemplo Neon Synth em musics para você editar cover, tags, descrição e link no JSON.",
+              "en": "Sample musics item Neon Synth so you can edit cover, tags, description, and link in JSON.",
+              "es": "Elemento de ejemplo Neon Synth en musics para editar portada, tags, descripción y link en JSON.",
+              "fr": "Exemple Neon Synth dans musics pour modifier cover, tags, description et lien dans le JSON.",
+              "de": "Beispiel Neon Synth in musics, damit du Cover, Tags, Beschreibung und Link im JSON bearbeiten kannst."
+            },
+            "link": "https://example.com/musics/neon-synth"
+          },
+          {
+            "title": "Rocket Bass",
+            "cover": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=600&q=80",
+            "tags": [
+              "Music",
+              "Playlist",
+              "Free"
+            ],
+            "description": {
+              "pt": "Item de exemplo Rocket Bass em musics para você editar cover, tags, descrição e link no JSON.",
+              "en": "Sample musics item Rocket Bass so you can edit cover, tags, description, and link in JSON.",
+              "es": "Elemento de ejemplo Rocket Bass en musics para editar portada, tags, descripción y link en JSON.",
+              "fr": "Exemple Rocket Bass dans musics pour modifier cover, tags, description et lien dans le JSON.",
+              "de": "Beispiel Rocket Bass in musics, damit du Cover, Tags, Beschreibung und Link im JSON bearbeiten kannst."
+            },
+            "link": "https://example.com/musics/rocket-bass"
+          },
+          {
+            "title": "Arcade Dreams",
+            "cover": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=600&q=80",
+            "tags": [
+              "Music",
+              "Playlist",
+              "Free"
+            ],
+            "description": {
+              "pt": "Item de exemplo Arcade Dreams em musics para você editar cover, tags, descrição e link no JSON.",
+              "en": "Sample musics item Arcade Dreams so you can edit cover, tags, description, and link in JSON.",
+              "es": "Elemento de ejemplo Arcade Dreams en musics para editar portada, tags, descripción y link en JSON.",
+              "fr": "Exemple Arcade Dreams dans musics pour modifier cover, tags, description et lien dans le JSON.",
+              "de": "Beispiel Arcade Dreams in musics, damit du Cover, Tags, Beschreibung und Link im JSON bearbeiten kannst."
+            },
+            "link": "https://example.com/musics/arcade-dreams"
           }
         ]
       },
-      { "id": "collections", "label": { "pt": "Coleções", "en": "Collections", "es": "Colecciones", "fr": "Collections", "de": "Sammlungen" }, "open": false, "items": [] },
-      { "id": "all", "label": { "pt": "Todos", "en": "All", "es": "Todos", "fr": "Tous", "de": "Alle" }, "open": false, "items": [] }
+      {
+        "id": "collections",
+        "label": {
+          "pt": "Coleções",
+          "en": "Collections",
+          "es": "Colecciones",
+          "fr": "Collections",
+          "de": "Collections"
+        },
+        "open": false,
+        "items": [
+          {
+            "title": "Shadow Loops",
+            "cover": "https://images.unsplash.com/photo-1506157786151-b8491531f063?auto=format&fit=crop&w=600&q=80",
+            "tags": [
+              "Music",
+              "Playlist",
+              "Free"
+            ],
+            "description": {
+              "pt": "Item de exemplo Shadow Loops em musics para você editar cover, tags, descrição e link no JSON.",
+              "en": "Sample musics item Shadow Loops so you can edit cover, tags, description, and link in JSON.",
+              "es": "Elemento de ejemplo Shadow Loops en musics para editar portada, tags, descripción y link en JSON.",
+              "fr": "Exemple Shadow Loops dans musics pour modifier cover, tags, description et lien dans le JSON.",
+              "de": "Beispiel Shadow Loops in musics, damit du Cover, Tags, Beschreibung und Link im JSON bearbeiten kannst."
+            },
+            "link": "https://example.com/musics/shadow-loops"
+          },
+          {
+            "title": "Turbo Mix",
+            "cover": "https://images.unsplash.com/photo-1487180144351-b8472da7d491?auto=format&fit=crop&w=600&q=80",
+            "tags": [
+              "Music",
+              "Playlist",
+              "Free"
+            ],
+            "description": {
+              "pt": "Item de exemplo Turbo Mix em musics para você editar cover, tags, descrição e link no JSON.",
+              "en": "Sample musics item Turbo Mix so you can edit cover, tags, description, and link in JSON.",
+              "es": "Elemento de ejemplo Turbo Mix en musics para editar portada, tags, descripción y link en JSON.",
+              "fr": "Exemple Turbo Mix dans musics pour modifier cover, tags, description et lien dans le JSON.",
+              "de": "Beispiel Turbo Mix in musics, damit du Cover, Tags, Beschreibung und Link im JSON bearbeiten kannst."
+            },
+            "link": "https://example.com/musics/turbo-mix"
+          },
+          {
+            "title": "Mecha Drums",
+            "cover": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&w=600&q=80",
+            "tags": [
+              "Music",
+              "Playlist",
+              "Free"
+            ],
+            "description": {
+              "pt": "Item de exemplo Mecha Drums em musics para você editar cover, tags, descrição e link no JSON.",
+              "en": "Sample musics item Mecha Drums so you can edit cover, tags, description, and link in JSON.",
+              "es": "Elemento de ejemplo Mecha Drums en musics para editar portada, tags, descripción y link en JSON.",
+              "fr": "Exemple Mecha Drums dans musics pour modifier cover, tags, description et lien dans le JSON.",
+              "de": "Beispiel Mecha Drums in musics, damit du Cover, Tags, Beschreibung und Link im JSON bearbeiten kannst."
+            },
+            "link": "https://example.com/musics/mecha-drums"
+          },
+          {
+            "title": "Dungeon Wave",
+            "cover": "https://images.unsplash.com/photo-1510915361894-db8b60106cb1?auto=format&fit=crop&w=600&q=80",
+            "tags": [
+              "Music",
+              "Playlist",
+              "Free"
+            ],
+            "description": {
+              "pt": "Item de exemplo Dungeon Wave em musics para você editar cover, tags, descrição e link no JSON.",
+              "en": "Sample musics item Dungeon Wave so you can edit cover, tags, description, and link in JSON.",
+              "es": "Elemento de ejemplo Dungeon Wave en musics para editar portada, tags, descripción y link en JSON.",
+              "fr": "Exemple Dungeon Wave dans musics pour modifier cover, tags, description et lien dans le JSON.",
+              "de": "Beispiel Dungeon Wave in musics, damit du Cover, Tags, Beschreibung und Link im JSON bearbeiten kannst."
+            },
+            "link": "https://example.com/musics/dungeon-wave"
+          }
+        ]
+      },
+      {
+        "id": "all",
+        "label": {
+          "pt": "Todos",
+          "en": "All",
+          "es": "Todos",
+          "fr": "Tous",
+          "de": "Alle"
+        },
+        "open": false,
+        "items": [
+          {
+            "title": "Star Chill",
+            "cover": "https://images.unsplash.com/photo-1494232410401-ad00d5433cfa?auto=format&fit=crop&w=600&q=80",
+            "tags": [
+              "Music",
+              "Playlist",
+              "Free"
+            ],
+            "description": {
+              "pt": "Item de exemplo Star Chill em musics para você editar cover, tags, descrição e link no JSON.",
+              "en": "Sample musics item Star Chill so you can edit cover, tags, description, and link in JSON.",
+              "es": "Elemento de ejemplo Star Chill en musics para editar portada, tags, descripción y link en JSON.",
+              "fr": "Exemple Star Chill dans musics pour modifier cover, tags, description et lien dans le JSON.",
+              "de": "Beispiel Star Chill in musics, damit du Cover, Tags, Beschreibung und Link im JSON bearbeiten kannst."
+            },
+            "link": "https://example.com/musics/star-chill"
+          },
+          {
+            "title": "Retro Flow",
+            "cover": "https://images.unsplash.com/photo-1520523839897-bd0b52f945a0?auto=format&fit=crop&w=600&q=80",
+            "tags": [
+              "Music",
+              "Playlist",
+              "Free"
+            ],
+            "description": {
+              "pt": "Item de exemplo Retro Flow em musics para você editar cover, tags, descrição e link no JSON.",
+              "en": "Sample musics item Retro Flow so you can edit cover, tags, description, and link in JSON.",
+              "es": "Elemento de ejemplo Retro Flow en musics para editar portada, tags, descripción y link en JSON.",
+              "fr": "Exemple Retro Flow dans musics pour modifier cover, tags, description et lien dans le JSON.",
+              "de": "Beispiel Retro Flow in musics, damit du Cover, Tags, Beschreibung und Link im JSON bearbeiten kannst."
+            },
+            "link": "https://example.com/musics/retro-flow"
+          },
+          {
+            "title": "Ocean Keys",
+            "cover": "https://images.unsplash.com/photo-1507874457470-272b3c8d8ee2?auto=format&fit=crop&w=600&q=80",
+            "tags": [
+              "Music",
+              "Playlist",
+              "Free"
+            ],
+            "description": {
+              "pt": "Item de exemplo Ocean Keys em musics para você editar cover, tags, descrição e link no JSON.",
+              "en": "Sample musics item Ocean Keys so you can edit cover, tags, description, and link in JSON.",
+              "es": "Elemento de ejemplo Ocean Keys en musics para editar portada, tags, descripción y link en JSON.",
+              "fr": "Exemple Ocean Keys dans musics pour modifier cover, tags, description et lien dans le JSON.",
+              "de": "Beispiel Ocean Keys in musics, damit du Cover, Tags, Beschreibung und Link im JSON bearbeiten kannst."
+            },
+            "link": "https://example.com/musics/ocean-keys"
+          },
+          {
+            "title": "Skyline Pop",
+            "cover": "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?auto=format&fit=crop&w=600&q=80",
+            "tags": [
+              "Music",
+              "Playlist",
+              "Free"
+            ],
+            "description": {
+              "pt": "Item de exemplo Skyline Pop em musics para você editar cover, tags, descrição e link no JSON.",
+              "en": "Sample musics item Skyline Pop so you can edit cover, tags, description, and link in JSON.",
+              "es": "Elemento de ejemplo Skyline Pop en musics para editar portada, tags, descripción y link en JSON.",
+              "fr": "Exemple Skyline Pop dans musics pour modifier cover, tags, description et lien dans le JSON.",
+              "de": "Beispiel Skyline Pop in musics, damit du Cover, Tags, Beschreibung und Link im JSON bearbeiten kannst."
+            },
+            "link": "https://example.com/musics/skyline-pop"
+          },
+          {
+            "title": "Alien Pulse",
+            "cover": "https://images.unsplash.com/photo-1487215078519-e21cc028cb29?auto=format&fit=crop&w=600&q=80",
+            "tags": [
+              "Music",
+              "Playlist",
+              "Free"
+            ],
+            "description": {
+              "pt": "Item de exemplo Alien Pulse em musics para você editar cover, tags, descrição e link no JSON.",
+              "en": "Sample musics item Alien Pulse so you can edit cover, tags, description, and link in JSON.",
+              "es": "Elemento de ejemplo Alien Pulse en musics para editar portada, tags, descripción y link en JSON.",
+              "fr": "Exemple Alien Pulse dans musics pour modifier cover, tags, description et lien dans le JSON.",
+              "de": "Beispiel Alien Pulse in musics, damit du Cover, Tags, Beschreibung und Link im JSON bearbeiten kannst."
+            },
+            "link": "https://example.com/musics/alien-pulse"
+          },
+          {
+            "title": "Night Radio",
+            "cover": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=600&q=80",
+            "tags": [
+              "Music",
+              "Playlist",
+              "Free"
+            ],
+            "description": {
+              "pt": "Item de exemplo Night Radio em musics para você editar cover, tags, descrição e link no JSON.",
+              "en": "Sample musics item Night Radio so you can edit cover, tags, description, and link in JSON.",
+              "es": "Elemento de ejemplo Night Radio en musics para editar portada, tags, descripción y link en JSON.",
+              "fr": "Exemple Night Radio dans musics pour modifier cover, tags, description et lien dans le JSON.",
+              "de": "Beispiel Night Radio in musics, damit du Cover, Tags, Beschreibung und Link im JSON bearbeiten kannst."
+            },
+            "link": "https://example.com/musics/night-radio"
+          },
+          {
+            "title": "Block Party",
+            "cover": "https://images.unsplash.com/photo-1518609878373-06d740f60d8b?auto=format&fit=crop&w=600&q=80",
+            "tags": [
+              "Music",
+              "Playlist",
+              "Free"
+            ],
+            "description": {
+              "pt": "Item de exemplo Block Party em musics para você editar cover, tags, descrição e link no JSON.",
+              "en": "Sample musics item Block Party so you can edit cover, tags, description, and link in JSON.",
+              "es": "Elemento de ejemplo Block Party en musics para editar portada, tags, descripción y link en JSON.",
+              "fr": "Exemple Block Party dans musics pour modifier cover, tags, description et lien dans le JSON.",
+              "de": "Beispiel Block Party in musics, damit du Cover, Tags, Beschreibung und Link im JSON bearbeiten kannst."
+            },
+            "link": "https://example.com/musics/block-party"
+          },
+          {
+            "title": "Crystal Echo",
+            "cover": "https://images.unsplash.com/photo-1507838153414-b4b713384a76?auto=format&fit=crop&w=600&q=80",
+            "tags": [
+              "Music",
+              "Playlist",
+              "Free"
+            ],
+            "description": {
+              "pt": "Item de exemplo Crystal Echo em musics para você editar cover, tags, descrição e link no JSON.",
+              "en": "Sample musics item Crystal Echo so you can edit cover, tags, description, and link in JSON.",
+              "es": "Elemento de ejemplo Crystal Echo en musics para editar portada, tags, descripción y link en JSON.",
+              "fr": "Exemple Crystal Echo dans musics pour modifier cover, tags, description et lien dans le JSON.",
+              "de": "Beispiel Crystal Echo in musics, damit du Cover, Tags, Beschreibung und Link im JSON bearbeiten kannst."
+            },
+            "link": "https://example.com/musics/crystal-echo"
+          }
+        ]
+      }
     ]
   }
 }
