@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="GMMF - Games, Movies, Musics Free" />
+    <title>GMMF | Games Movies Musics Free</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ctext y='52' font-size='52'%3E%F0%9F%9A%80%3C/text%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="main-header">
+        <div class="brand">
+          <a class="logo" href="#games" aria-label="GMMF home">🚀 GMMF</a>
+          <p data-i18n="byline">por: <a href="https://github.com/Viquinhodev" target="_blank" rel="noreferrer">Viquinhodev</a></p>
+        </div>
+
+        <nav class="top-nav" aria-label="Categorias principais">
+          <a href="#games" data-section="games" data-i18n="navGames">Games</a>
+          <a href="#movies" data-section="movies" data-i18n="navMovies">Movies</a>
+          <a href="#musics" data-section="musics" data-i18n="navMusics">Musics</a>
+        </nav>
+
+        <div class="language-picker" aria-label="Selecionar idioma">
+          <button class="lang-button active" data-lang="pt">PT</button>
+          <button class="lang-button" data-lang="en">EN</button>
+          <button class="lang-button" data-lang="es">ES</button>
+          <button class="lang-button" data-lang="fr">FR</button>
+          <button class="lang-button" data-lang="de">DE</button>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero" aria-label="Banner GMMF">
+          <div>
+            <p class="eyebrow" data-i18n="heroEyebrow">Games • Movies • Musics • Free</p>
+            <h1 data-i18n="heroTitle">Tudo em um só portal gamer.</h1>
+            <p data-i18n="heroText">Escolha uma coleção, abra um cover e edite todo o catálogo pelo JSON.</p>
+          </div>
+          <div class="hero-card">GMMF</div>
+        </section>
+
+        <section id="content" class="content-area" aria-live="polite"></section>
+      </main>
+    </div>
+
+    <dialog id="item-modal" class="item-modal">
+      <button class="modal-close" aria-label="Fechar modal">×</button>
+      <div class="modal-grid">
+        <img id="modal-cover" alt="" />
+        <div class="modal-copy">
+          <h2 id="modal-title"></h2>
+          <div id="modal-tags" class="tag-list"></div>
+          <p id="modal-description"></p>
+        </div>
+      </div>
+      <a id="modal-action" class="action-button" target="_blank" rel="noreferrer"></a>
+    </dialog>
+
+    <script src="app.js"></script>
+  </body>
+</html>
