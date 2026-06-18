@@ -1,4 +1,5 @@
 const supportedLanguages = ["pt", "en", "es", "fr", "de"];
+const languageLabels = { pt: "PT", en: "EN", es: "ES", fr: "FR", de: "DE" };
 const translations = {
   pt: { byline: 'por: <a href="https://github.com/Viquinhodev" target="_blank" rel="noreferrer">Viquinhodev</a>', navGames: "Games", navMovies: "Movies", navMusics: "Musics", heroEyebrow: "Games • Movies • Musics • Free", heroTitle: "Tudo em um só portal gamer.", heroText: "Escolha uma coleção, abra um cover e edite todo o catálogo pelo JSON.", empty: "Adicione itens em catalog.json para preencher esta classe." },
   en: { byline: 'by: <a href="https://github.com/Viquinhodev" target="_blank" rel="noreferrer">Viquinhodev</a>', navGames: "Games", navMovies: "Movies", navMusics: "Musics", heroEyebrow: "Games • Movies • Musics • Free", heroTitle: "Everything in one gamer portal.", heroText: "Choose a collection, open a cover, and edit the whole catalog in JSON.", empty: "Add items in catalog.json to fill this class." },
@@ -71,13 +72,14 @@ document.querySelectorAll(".top-nav a").forEach((link) => {
   });
 });
 
-document.querySelectorAll(".lang-button").forEach((button) => {
-  button.addEventListener("click", () => {
-    currentLang = supportedLanguages.includes(button.dataset.lang) ? button.dataset.lang : "pt";
-    document.querySelectorAll(".lang-button").forEach((item) => item.classList.toggle("active", item === button));
-    applyTranslations();
-    renderSection(currentSection);
-  });
+const languageCycle = document.querySelector(".language-cycle");
+languageCycle.addEventListener("click", () => {
+  const currentIndex = supportedLanguages.indexOf(currentLang);
+  currentLang = supportedLanguages[(currentIndex + 1) % supportedLanguages.length];
+  languageCycle.textContent = languageLabels[currentLang];
+  languageCycle.setAttribute("aria-label", `Idioma selecionado: ${languageLabels[currentLang]}`);
+  applyTranslations();
+  renderSection(currentSection);
 });
 
 content.addEventListener("click", (event) => {
